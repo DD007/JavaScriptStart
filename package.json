@@ -3,8 +3,16 @@
   "version": "0.1.0",
   "dependencies": {
     "body-parser": "^1.16.0",
-    "ejs": "^2.5.5",
-    "express": "^4.14.0"
+    "ejs": "^2.6.1",
+    "express": "^4.14.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "step": "^1.0.0",
+    "steps": "0.0.2"
+  },
+    "scripts": {
+    "test": "nyc mocha selenium.js"
   },
   "author": "riaan@entersekt.com",
   "description": "Basic to do list exercise"

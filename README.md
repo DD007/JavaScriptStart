@@ -33,4 +33,12 @@ Visit http://localhost:8080 in your browser
 > - Will be nice if you can git tag the tasks by number
 
 ### Solution
-Explain what you have done here and why...
+-How to Run Test:
+In root directory of application run command: 
+$ npm test
+
+-How to build docker image
+$ sudo docker build -t node .
+
+-How to Run docker container
+$ sudo docker run -p 8080:8080 --name node -d node
